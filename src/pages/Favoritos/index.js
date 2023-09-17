@@ -22,7 +22,7 @@ export const Favoritos = () => {
           favorito?.map((fav) => (
           <Card key={fav.id} {...fav} />
         )) :
-        <p style={{ marginTop: 100 }}>Não existe favoritos ainda, volte e escolha um card</p>
+        <p style={{ marginTop: 50, marginBottom: 50 }}>Não existe favoritos ainda, volte e escolha um card</p>
         }
       </section>
     </>

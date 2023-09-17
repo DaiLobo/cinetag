@@ -1,7 +1,8 @@
 .container {
     padding: 0 0 1em 0;
     margin-top: .5em;
-    width: 250px;
+    width: 260px;
+    max-height: 541px;
     background-color: var(--cinza);
     display: flex;
     flex-direction: column;

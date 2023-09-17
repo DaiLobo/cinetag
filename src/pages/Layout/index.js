@@ -15,8 +15,9 @@ export const Layout = () => {
             <Outlet />
           </Container>
         </FavoritosProvider>
+
+        <Footer />
       </main>
-      <Footer />
     </>
   );
 };
