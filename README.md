@@ -1,56 +1,93 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="https://github.com/DaiLobo/cinetag/assets/47689708/25aa36bc-f7b5-4d0c-ac31-3d018cef6763" alt="Cine Tag">
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center"> 
+	📌 Concluído: Acesse o projeto <a href="https://cinetag-murex.vercel.app">Cine Tag</a>
+</h4>
 
-## Available Scripts
+## 📝 Sobre
 
-In the project directory, you can run:
+Esta aplicação feita com React permite aos usuários explorar vídeos por meio de cards, favoritando e assistindo aos vídeos caso clique em algum card. Os usuários podem marcar vídeos como favoritos e assisti-los com facilidade, simplificando a gestão de conteúdo de vídeo.
 
-### `yarn start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://github.com/DaiLobo/cinetag/assets/47689708/1f43111c-3abd-4361-81dd-162e791f27f7)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `yarn run build`
+## :bookmark: Índice
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
+<p align="center">
+ <a href="#-pré-requisitos">Pré-requisitos</a> •
+ <a href="#-instalação">Instalação</a> • 
+ <a href="#-executando-o-projeto">Executando o Projeto</a> • 
+ <a href="#-rotas">Rotas</a> • 
+ <a href="#-funcionalidades-do-projeto">Funcionalidades do projeto</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#%EF%B8%8F-autora">Autora</a>
+</p>
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📋&nbsp; Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-## Learn More
+## 🔧 Instalação
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone este repositório
+$ git clone https://github.com/seu-usuario/cinetag.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Acesse a pasta do projeto no terminal/cmd
+$ cd cinetag
 
-### Code Splitting
+# Instale as dependências
+$ yarn
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🎬 Executando o Projeto
 
-### Analyzing the Bundle Size
+```bash
+yarn start
+```
+A aplicação estará disponível em http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<hr/>
 
-### Making a Progressive Web App
+## 🗺 Rotas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Página Inicial (/)
+    - Apresenta um cabeçalho com links "Início" (/) e "Favoritos" (/favoritos) e um banner.
+    - Oferece uma seleção de cards relacionados a vídeos, onde a imagem representa o autor do vídeo e o título é o nome do vídeo, com a opção de favoritar.
+- Página Favoritos (/favoritos)
+    - Exibe os cards que foram marcados como favoritos na página inicial.
+- Página de Player (/[id])
+    - Apresenta o player de vídeo do YouTube para assistir o conteúdo do card selecionado.
+ 
+<hr/>
 
-### Advanced Configuration
+## 👨🏾‍💻 Funcionalidades do projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Esta é uma aplicação completa em React que oferece uma experiência de navegação intuitiva. A página inicial apresenta uma série de cards, cada um deles direcionando o usuário para uma página exclusiva com seu respectivo vídeo. Além disso, a aplicação inclui uma página de "Favoritos", na qual são exibidos os cards que foram marcados como favoritos na página inicial.
 
-### Deployment
+Para aprimorar a funcionalidade de favoritos e o gerenciamento de rotas dinâmicas, esta aplicação utiliza o Context API do React. Isso permite compartilhar as informações dos cards favoritados em toda a aplicação, tornando o processo de adição e remoção de favoritos mais eficiente. Além disso, as rotas dinâmicas são usadas para redirecionar o usuário para o vídeo associado ao card, proporcionando uma experiência de visualização perfeita e personalizada.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<hr/>
 
-### `npm run build` fails to minify
+## 🛠 Tecnologias
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" width="52" alt="react logo"  />
+  <img src="https://github.com/DaiLobo/ola-mundo/assets/47689708/e198f1e6-5325-44e1-9689-ba8162b954c5" height="40" width="40" alt="react-router-dom logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="js logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" width="52" alt="figma logo"   />        
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" width="52" alt="git logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" width="52" alt="github logo" />                                   
+</div>
+<hr/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# cinetag
+## ✒️ Autora
+Desenvolvido com 💜 por Diana Rose
